@@ -1,0 +1,75 @@
+#Utah Jazz City Gradient CSS
+
+* {
+    color:#002B5C;
+}
+
+a{
+    color: white;
+}
+
+body{
+    background-color: #002B5C;
+    color:#F9A01B;
+}
+
+.container{
+     background: linear-gradient(#fedd17, #fdd10b, #fad10c, #ffa43b, #ff843f, #f84938, #fe4f3d, #fe4c40, #f42a39, #ee343c, #d9333b, #8d3639, #442b31);
+     color:white;
+     border-radius: 10px;
+     margin-bottom: 10px;
+     text-align: center;
+}
+
+.form-control{
+    width: 75%;
+    background-color: cornsilk;
+    color: #002B5C;
+    align-content: center;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+
+.form-control input{
+    width: 75%;
+    height: auto;
+}
+
+form{
+    align-content: center;
+}
+
+
+li a{
+    color: white;
+}
+
+
+p{
+    text-align: center-justify;
+    width: 90%;
+    margin: 0 auto;
+    padding: 5px auto;
+    background-color: cornsilk; 
+    color: #002B5C;
+    border-radius: 5%;
+}
+
+#review p{
+    text-align: center-justify;
+    width: 90%;
+    margin: 0 auto;
+    background-color: cornsilk; 
+    color: #002B5C;
+    border-radius: 5%;
+}
+
+#subject{
+    width: 72%;
+    margin: 0 auto;
+}
+
+#turkey{
+    width: 50px;
+    height: auto;
+}

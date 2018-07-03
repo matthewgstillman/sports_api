@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<title>Sports API - Basketball</title>
+{% endblock%}
+
+
+{% block content %}
+<div class="container">
+    <h3>Basketball Scores</h3>
+        {% for matches in matches %}
+            <h6> {{ matches.home_team }} vs {{ matches.away_team}}: {{ matches.home_score}}-{{ matches.away_score }}</h6>
+        {% endfor %}
+        <a href="/">Go Back</a>
+</div>
+{% endblock %}

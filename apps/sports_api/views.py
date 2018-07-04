@@ -53,3 +53,14 @@ def soccer(request):
         'matches': matches,
     }
     return render(request, 'sports_api/soccer.html', context)
+
+def tennis(request):
+    matches = sports_py.get_sport_scores('tennis')
+    for match in matches:
+        print(' {} vs {}: {}-{}'.format(match.home_team, match.away_team,
+        match.home_score, match.away_score))
+    context = {
+        'match': match,
+        'matches': matches,
+    }
+    return render(request, 'sports_api/tennis.html', context)

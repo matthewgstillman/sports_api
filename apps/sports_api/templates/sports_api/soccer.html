@@ -9,7 +9,11 @@
 <div class="container">
     <h3>Soccer Scores</h3>
         {% for matches in matches %}
-            <h6> {{ matches.home_team }} vs {{ matches.away_team}}: {{ matches.home_score}}-{{ matches.away_score }}</h6>
+            <h6> {{ matches.home_team }}  {{ matches.home_score}}
+            </h6>
+            <h6> {{ matches.away_team }}  {{ matches.away_score}}
+            </h6>
+            <hr>
         {% endfor %}
         <a href="/">Go Back</a>
 </div>
